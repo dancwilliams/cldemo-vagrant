@@ -275,7 +275,6 @@ fi
 SCRIPT
 
 Vagrant.configure("2") do |config|
-  config.vbguest.auto_update = false
   wbid = ENV['USER']
   offset = 0
 
